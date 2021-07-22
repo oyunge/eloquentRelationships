@@ -69,9 +69,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3 .npm install
 4 .npm run dev
 
+***ManyToMany Relationship**
+1. post - may have many tags
+2. tag - may have many posts
 
+3. We will have to use a pivot table inorder to implement the relationship
 
-
+4. create a relationship between post and tag
 
 
 
